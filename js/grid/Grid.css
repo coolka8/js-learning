@@ -1,0 +1,52 @@
+li.row
+{
+  width: 300px;
+  height: 30px;
+  display: block;
+  position: relative;
+  margin: 0 0;
+}
+
+.amountEditor
+{
+  top: 0px;
+  left: 100px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+}
+
+input.amountEditorInput
+{
+  height: 30px;
+  text-align: right;
+  background: none;
+}
+
+.rateInput
+{
+  top: 0px;
+  left: 200px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+}
+
+input.rateInputComp
+{
+  width: 80px;
+  height: 30px;
+  background: none;
+  text-align: right;
+}
+input.rateInputButton
+{
+  width: 20px;
+  height: 50%;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  right: 0;
+}
+
+
