@@ -7,7 +7,7 @@ li.row
   margin: 0 0;
 }
 
-.amountEditor
+.amountInput
 {
   top: 0px;
   left: 100px;
@@ -23,7 +23,7 @@ input.amountEditorInput
   background: none;
 }
 
-.rateInput
+.priceInput
 {
   top: 0px;
   left: 200px;
@@ -49,4 +49,20 @@ input.rateInputButton
   right: 0;
 }
 
+.currencyPairInput
+{
+  top: 0px;
+  left: 300px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+}
 
+.statusDisplay
+{
+    top: 0px;
+    left: 400px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+}

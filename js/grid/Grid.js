@@ -1,6 +1,8 @@
 import React from 'react';
-import AmountEditor from "./editors/AmountInput";
+import AmountInput from "./editors/AmountInput";
 import PriceInput from "./editors/PriceInput";
+import CurrencyPairInput from "./editors/CurrencyPairInput";
+import StatusDisplay from "./editors/StatusDisplay";
 
 require("./Grid.css");
 
@@ -53,8 +55,11 @@ class Row extends React.Component
                    onMouseOver={this.mouseOverHandler}
                    onMouseOut={this.mouseOutHandler}>
             <LabelEditor text={this.props.id}/>
-            <AmountEditor amount={100}/>
-            <PriceInput hovered={this.state.hovered}/>
+            <AmountInput amount={100}/>
+            <PriceInput hovered={this.state.hovered}
+                price={1.00000}/>
+            <CurrencyPairInput currencyPair="EURUSD"/>
+            <StatusDisplay/>
         </li>;
     }
 }
